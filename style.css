@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+.topnav {
+    top: 0;
+    position: absolute;
+    background: #E1E9E1;
+    width: 99vw;
+}
+
+.topnav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topnav a {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: #2F2E2E;
+}
+
+.header-hr {
+    margin-bottom: 40px;
+}
+
+/* FOOTER */
+
+.footer {
+    bottom: 0;
+    background: #E1E9E1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 99vw;
+    margin-top: 40px;
+}
+
+.footer .text {
+    display: flex;
+    align-items: center;
+}
+
+.icons ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .icons {
+    display: flex;
+}
+
+.footer .icons i {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px;
+    font-size: 20px;
+}
+
+a {
+    color: #333;
+}
+
+.logo {
+    width: 300px;
+    height: 100%;
+}
+
+.logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.logo-image h1 {
+    color: #D3E0D3;
+}
+
+hr,
+h2 {
+    color: #D3E0D3;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section {
+    text-align: justify;
+    max-width: 50%;
+}
+
+
+
+
+/* CARDS */
+
+
+.card {
+    width: 600px;
+    background-color: white;
+    border: #2F2E2E solid 1px;
+    margin-bottom: 20px;
+}
+
+.card:first-child {
+    margin-top: 20px;
+}
+
+.card-ids {
+    display: flex;
+    align-items: center;
+}
+
+.card-ids i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.card:hover .card-image img {
+    width: 160%;
+}
+
+.card-image {
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-property: filter width;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.card-body {
+    text-align: justify;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.card-date,
+.card-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-date,
+.card-excerpt {
+    color: #777;
+}
+
+/* SMALL CARD */
+.card2 {
+    width: 250px;
+    background-color: white;
+    border: #2F2E2E solid 1px;
+}
+
+.card-ids2 {
+    display: flex;
+    align-items: center;
+}
+
+.card-ids2 i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.card:hover .card-image2 img {
+    width: 160%;
+}
+
+.card-image2 {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image2 img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-property: filter width;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.card-body2 {
+    text-align: justify;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.next-card {
+    width: 15%;
+    margin-right: 30px;
+}
+
+.contains {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div .card-icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div .card-icons ul i {
+    font-size: 30px;
+}
+
+.small {
+    margin: 0px;
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button input {
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    background: #84947B;
+    color: #fff;
+    cursor: pointer;
+}
+
+.comments {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.about {
+    width: 400px;
+    background-color: white;
+}
+
+.about-image {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contains-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.parag {
+    margin-left: 30px;
+    max-width: 30%;
+}
+
+.contains2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* CONTACT PAGE */
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-email,
+.contact-message,
+.add-titre,
+.add-contenu,
+.add-img,
+.add-category,
+.add-email {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 15px;
+}
+
+form .button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background: #fff;
+    width: 450px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+        0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+/* Signup Form CSS Code */
+.form {
+    padding: 25px 30px;
+
+}
+
+.form header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.form form {
+    margin: 20px 0;
+}
+
+.form form .error-txt {
+    color: #721c24;
+    background: #f8d7da;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+    display: none;
+}
+
+.form form .name-details {
+    display: flex;
+}
+
+form .name-details .field:first-child {
+    margin-right: 10px;
+}
+
+form .name-details .field:last-child {
+    margin-left: 10px;
+}
+
+.form form .field {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form form .field label {
+    margin-bottom: 2px;
+}
+
+.form form .field input {
+    outline: none;
+}
+
+.form form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form form .image input {
+    font-size: 17px;
+}
+
+.form form .field i {
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.form form .field i.active::before {
+    color: #333;
+    content: "\f070";
+}
+
+.form .link {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.form .link a:hover {
+    text-decoration: underline;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table,
+td,
+th {
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    margin: 50px;
+    max-width: 70%;
+    text-align: center;
+    padding: 15px;
+}
+
+tr {
+    margin: 0px 10px;
+}
+
+tr:hover {
+    background-color: #E1E9E1;
+}
+
+.btnAdd,
+.listMsg,
+.editCom {
+    margin-right: 20px;
+}
+
+.btnUpdate,
+.btnDelete,
+.btnValid {
+    margin: 5px;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btnUpdate,
+.btnValid {
+    background: #B2996B;
+}
+
+.btnDelete {
+    background: #DC143C;
+}
+
+.addRecipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carte {
+    width: 650px;
+    background-color: white;
+    border: #2F2E2E solid 1px;
+    margin: 20px;
+    padding: 50px;
+}
+
+.carte-ids {
+    display: flex;
+    align-items: center;
+}
+
+.card3 {
+    width: 250px;
+    background-color: white;
+    border: #2F2E2E solid 1px;
+    margin: 10px;
+}
+
+.card3:hover .card-image3 img {
+    width: 160%;
+}
+
+.card-image3 {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image3 img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-property: filter width;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.cardIdk {
+    display: flex;
+}
+
+.details-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-email,
+.details-message {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin-top: 15px;
+}
